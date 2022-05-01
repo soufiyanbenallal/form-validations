@@ -1,6 +1,6 @@
 {
   "name": "simple-form-validations",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Its simple validations form support all js framework (React,vue, angular..) or native javascript, checking your fields that you create by your frame with rules that your create.",
   "main": "index.js",
   "type": "module",
@@ -10,9 +10,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/soufiyanbenallal/form-validations.git"
-  },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
   },
   "keywords": [
     "form-validations",

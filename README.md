@@ -5,14 +5,12 @@ Its simple lightweight validations form support all js framework (React,vue, ang
 
 ```
 npm i simple-form-validations
-
 ```
 
 OR
 
 ```
 yarn add simple-form-validations
-
 ```
 
 ## Usage
@@ -33,9 +31,9 @@ const validationsRules = {
     },
     password: {
         required: 'Password is required.',
-        minLength: {
-        value: 6,
-        message: 'Password must be at least 6 characters.',
+        min: {
+            value: 6,
+            message: 'Password must be at least 6 characters.',
         },
     },
     url: {
@@ -43,9 +41,9 @@ const validationsRules = {
     },
     phone: {
         required: 'Phone number is required.',
-        minLength: {
-        value: 10,
-        message: 'Phone number must be at least 10 characters.',
+        min: {
+            value: 10,
+            message: 'Phone number must be at least 10 characters.',
         },
     }
 }
