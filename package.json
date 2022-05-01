@@ -1,8 +1,9 @@
 {
-  "name": "form-validations",
-  "version": "1.0.0",
-  "description": "Its sample validations form support all js framework (React,vue, angular..) or native javascript, checking your fields that you create by your frame with rules that your create.",
+  "name": "simple-form-validations",
+  "version": "2.0.1",
+  "description": "Its simple validations form support all js framework (React,vue, angular..) or native javascript, checking your fields that you create by your frame with rules that your create.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
